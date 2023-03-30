@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import frontend from "./frontend.png";
+import uiux from "./uiux.png";
+import react from "./react.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import airforce from "./company/airforce.png";
+import attleboro from "./company/attleboro.png";
+import century21 from "./company/century21.png";
+import boston from "./company/boston.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -32,9 +36,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  react,
+  uiux,
+  frontend,
   web,
   github,
   menu,
@@ -59,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  attleboro,
+  airforce,
+  century21,
+  boston,
 };
