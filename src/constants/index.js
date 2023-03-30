@@ -186,6 +186,7 @@ import {
     },
   ];
   
+  // TODO: update all these testimonials.
   const testimonials = [
     {
       testimonial:
