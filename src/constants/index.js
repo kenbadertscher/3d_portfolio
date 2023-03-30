@@ -236,8 +236,7 @@ import {
       ],
       image: carrent,
       live_deploy_link: "https://realestateken.netlify.app/",
-      // TODO: update this github link
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kenbadertscher/refine_dashboard",
     },
     {
       name: "Shoppy",
@@ -260,8 +259,7 @@ import {
       ],
       image: jobit,
       live_deploy_link: "https://dashboardken.netlify.app/",
-      // TODO: update this github link
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kenbadertscher/shoppy-dashboard",
     },
     {
       name: "GPT-3 Blog",
@@ -284,8 +282,7 @@ import {
       ],
       image: tripguide,
       live_deploy_link: "https://gpt3ken.netlify.app/",
-      // TODO: update this github link
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/kenbadertscher/gpt_ken",
     },
   ];
   
