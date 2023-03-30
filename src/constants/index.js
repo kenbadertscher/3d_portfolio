@@ -215,7 +215,8 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Yariga",
+      // TODO: update this description
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -233,10 +234,13 @@ import {
         },
       ],
       image: carrent,
+      live_deploy_link: "https://realestateken.netlify.app/",
+      // TODO: update this github link
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Shoppy",
+      // TODO: update this description
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
@@ -254,10 +258,13 @@ import {
         },
       ],
       image: jobit,
+      live_deploy_link: "https://dashboardken.netlify.app/",
+      // TODO: update this github link
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "GPT-3 Blog",
+      // TODO: update this description
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -275,6 +282,8 @@ import {
         },
       ],
       image: tripguide,
+      live_deploy_link: "https://gpt3ken.netlify.app/",
+      // TODO: update this github link
       source_code_link: "https://github.com/",
     },
   ];
