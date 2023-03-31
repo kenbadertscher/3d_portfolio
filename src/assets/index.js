@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import link_icon from "./link_icon.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,6 +34,9 @@ import boston from "./company/boston.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import shoppy from "./shoppy.png";
+import yariga from "./yariga.png";
+import gpt3 from "./gpt3.png";
 
 export {
   logo,
@@ -67,4 +71,8 @@ export {
   airforce,
   century21,
   boston,
+  link_icon,
+  shoppy,
+  yariga,
+  gpt3,
 };

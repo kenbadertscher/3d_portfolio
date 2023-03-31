@@ -27,6 +27,9 @@ import {
     attleboro,
     boston,
     century21,
+    yariga,
+    gpt3,
+    shoppy,
   } from "../assets";
   
   export const navLinks = [
@@ -178,10 +181,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Sept 2020 - Present",
       points: [
-        "Upgrade to PTG",
-        "Manage Budget",
-        "Analyze Complex Data",
-        "Generate Reports",
+        "Upgraded 20 year old legacy application to a cloud-based retirement management platform.",
+        "Devloped budget, managed payroll and certified expenses for a $200MM municipal pension plan.",
+        "Analyzed complex regulations to make eligibility decisions for members and advise beneficiaries.",
+        "Generate financial reports for State oversight agencies and auditors and public consumption.",
       ],
     },
   ];
@@ -190,97 +193,94 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ken is a self starter with a vision of how things should be done and then executes with precision. His attention to detail ensured that nothing was left to spare.",
+      name: "Glen Caron",
+      designation: "Master Sergeant",
+      company: "US Air Force",
+      image: "https://res.cloudinary.com/diracbbg3/image/upload/v1680226059/Glen_Caron_m4u4m1.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ken is an excellent communicator and provides services that go beyond what is normally expected.",
+      name: "Ron Grieger",
+      designation: "Owner / CEO",
+      company: "Diamond Associates",
+      image: "https://res.cloudinary.com/diracbbg3/image/upload/v1680227137/RonGrieger_ltzein.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "If you want something done right, give it to Ken.",
+      name: "Bryan Bishop",
+      designation: "Deputy Commissioner",
+      company: "Veterans Services",
+      image: "https://res.cloudinary.com/diracbbg3/image/upload/v1680226279/Bryan_Bishop_bfr2ih.png",
     },
   ];
   
   const projects = [
     {
       name: "Yariga",
-      // TODO: update this description
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Full-stack MERN application with full Create-Read-Update-Delete functionality featuring modern MaterialUI components plus login and register with Google Auth.",
       tags: [
         {
-          name: "react",
+          name: "mongodb",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "express.js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: yariga,
       live_deploy_link: "https://realestateken.netlify.app/",
       source_code_link: "https://github.com/kenbadertscher/refine_dashboard",
     },
     {
       name: "Shoppy",
-      // TODO: update this description
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A fully mobile responsive admin dashboard application built with ReactJS; featuring theming, tables, charts, calendar, kanban, and more from SyncFusion.",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "syncfusion",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: shoppy,
       live_deploy_link: "https://dashboardken.netlify.app/",
       source_code_link: "https://github.com/kenbadertscher/shoppy-dashboard",
     },
     {
       name: "GPT-3 Blog",
-      // TODO: update this description
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A modern and fully responsive blog website created with ReactJS from a Figma template, showcasing the Block-Element-Modifier (BEM) CSS methodology.",
       tags: [
         {
-          name: "nextjs",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "figma",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "responsive",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: gpt3,
       live_deploy_link: "https://gpt3ken.netlify.app/",
       source_code_link: "https://github.com/kenbadertscher/gpt_ken",
     },
