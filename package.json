@@ -12,15 +12,18 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.3",
     "@react-three/fiber": "^8.12.0",
+    "caniuse-lite": "^1.0.30001585",
     "framer-motion": "^10.3.2",
     "maath": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.120",
     "react-router-dom": "^6.9.0",
-    "react-tilt": "^0.1.4",
+    "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.150.1"
+    "reactstrap": "^9.2.2",
+    "three": "^0.150.1",
+    "three-mesh-bvh": "^0.7.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
